@@ -24,8 +24,3 @@
     transform: rotate(30deg);
   }
 }
-
-.any {
-  display: flex;
-  background: linear-gradient(to left, black, white);
-}
