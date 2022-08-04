@@ -1,0 +1,27 @@
+{
+  "name": "ce1pers-content-provider",
+  "version": "0.0.0",
+  "description": "Simple statically content provider with Gulp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code1iners/ce1pers-content-provider-gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "static",
+    "content",
+    "provider",
+    "cdn",
+    "typescript"
+  ],
+  "author": "__coma__ <codeliner96@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/code1iners/ce1pers-content-provider-gulp/issues"
+  },
+  "homepage": "https://github.com/code1iners/ce1pers-content-provider-gulp#readme"
+}
