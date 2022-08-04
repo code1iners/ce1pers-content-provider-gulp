@@ -16,4 +16,4 @@ const clearDist = async () => sync(["dist"]);
 
 const prepare = gulp.series([clearDist]);
 
-export const dev = gulp.series([prepare, css]);
+export const build = gulp.series([prepare, css]);
