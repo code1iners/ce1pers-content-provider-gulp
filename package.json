@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Static content provider with Gulp.js",
   "scripts": {
-    "test": "nodemon --exec ts-node ./src/**/*.ts}",
+    "test": "nodemon --exec ts-node ./src/tasks/**/*.ts -e ts}",
     "build": "gulp dev"
   },
   "keywords": [

@@ -1,6 +1,6 @@
 {
   "include": ["src/assets/**/*"],
-  "exclude": ["node_modules", "dist"],
+  "exclude": ["node_modules", "dist", "src/utils"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 

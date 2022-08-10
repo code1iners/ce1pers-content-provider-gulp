@@ -3,9 +3,9 @@ import htmlMin from "gulp-htmlmin";
 import rename from "gulp-rename";
 import { getAssetDirs } from "../../utils/file-utils";
 
-export default async () =>
+const html = async () =>
   getAssetDirs().map((dir) => {
-    src(`src/assets/${dir}/index.html`)
+    src(`src/assets/templates/${dir}/index.html`)
       .pipe(htmlMin({ collapseWhitespace: true }))
       .pipe(
         rename({
@@ -13,5 +13,7 @@ export default async () =>
           extname: ".html",
         })
       )
-      .pipe(dest(`dist/${dir}`));
+      .pipe(dest(`dist/templates/${dir}`));
   });
+
+export default html;

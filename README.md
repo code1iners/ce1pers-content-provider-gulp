@@ -2,7 +2,7 @@
 
 This is a static content provider application with Gulp.js
 
-## How to use
+## How to play
 
 1. Install dependencies.
 
@@ -15,6 +15,8 @@ This is a static content provider application with Gulp.js
    ```
    npm run build
    ```
+
+3. See distributed files in `./dist` folder.
 
 ## Tech Stacks
 
