@@ -1,0 +1,25 @@
+.animate-spin-r {
+  width: 50px;
+  height: 50px;
+  box-shadow: inset 2px 2px 3px #ff7979;
+  border-radius: 100%;
+  animation: spin-l 0.5s linear infinite;
+}
+
+@keyframes spin-r {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-l {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
